@@ -1,0 +1,146 @@
+html, body {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #17255A;
+    background-color: #f3f2f2;
+    line-height: 1.25;
+    word-wrap: break-word;
+}
+a {
+    color: #BD1E1E;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Lemonada', cursive;
+    color: #BD1E1E;
+}
+
+h6 {
+    font-family: 'Lemonada', cursive;
+    color: #5353b2;
+}
+
+/* NavBar Styling */
+.navbar {
+    background-color: #18206F;
+    height: 10vh;
+}
+.nav-tabs .nav-link.active {
+    background-color: #FFF6EA !important;
+    color: #18206F !important;
+    border: #BD1E1E 1px solid;
+}
+.nav-tabs a.nav-link:hover {
+    background-color: rgba(158, 153, 166, 0.5)!important;
+    color: #f3f2f2 !important;
+    border: #FFF6EA 1px solid;
+}
+
+/* footer styling */
+footer {
+    max-width: 100% !important;
+}
+
+/* Landing Page Styling */
+.w-header {
+    width: 3.2rem;
+}
+
+.timeline {
+    position: relative;
+    list-style: none;
+    padding: 1rem 0;
+    margin: 0;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    margin-left: -1px;
+    background-color: #BD1E1E;
+}
+
+.timeline-element {
+    position: relative;
+    width: 50%;
+    padding: 1rem 0;
+    padding-right: 2.5rem;
+    text-align: right;
+}
+
+.timeline-element::before {
+    content: '';
+    position: absolute;
+    right: -8px;
+    top: 1.35rem;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 2px solid #17255A;
+    background-color: #BD1E1E;
+}
+
+.timeline-element:nth-child(even)::before {
+    right: auto;
+    left: -8px;
+}
+
+.timeline-element:nth-child(even) {
+    margin-left: 50%;
+    padding-left: 2.5rem;
+    padding-right: 0;
+    text-align: left;
+}
+
+@media (max-width: 767.98px) {
+    .timeline::before {
+        left: 8px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .timeline-element {
+        width: 100%;
+        text-align: left;
+        padding-left: 2.5rem;
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .timeline-element::before {
+        top: 1.25rem;
+        left: 1px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .timeline-element:nth-child(even) {
+        margin-left: 0rem;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .timeline-element {
+        width: 100%;
+        text-align: left;
+        padding-left: 2.5rem;
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .timeline-element:nth-child(even)::before {
+        left: 1px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .timeline-element::before {
+        top: 1.25rem;
+    }
+}
