@@ -1,0 +1,101 @@
+html, body {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #17255A;
+    background-color: #f3f2f2;
+    line-height: 1.25;
+    word-wrap: break-word;
+}
+a {
+    color: #BD1E1E;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Lemonada', cursive;
+    color: #BD1E1E;
+}
+
+h6 {
+    font-family: 'Lemonada', cursive;
+    color: #5353b2;
+}
+
+/* NavBar Styling */
+.navbar {
+    background-color: #18206F;
+    height: 10vh;
+}
+.nav-tabs a.nav-link.active {
+    background-color: #FFF6EA !important;
+    color: #18206F !important;
+    border: #BD1E1E 1px solid;
+}
+.nav-tabs a.nav-link:hover {
+    background-color: rgba(158, 153, 166, 0.5)!important;
+    color: #f3f2f2 !important;
+    border: #FFF6EA 1px solid;
+}
+
+ul.nav-tabs {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.navbar-brand {
+    position: absolute;
+    display: block;
+}
+
+/* footer styling */
+footer {
+    max-width: 100% !important;
+    background-color: #BD1E1E;
+    border-top: #18206F solid 2px;
+}
+.footer-copyright {
+    color: #FFF6EA;
+    background-color: #18206F;
+}
+
+
+
+
+/* media queries for Navbar Brand */
+/* Extra small devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .navbar-brand{
+        left: 10%;
+    }
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .navbar-brand{
+        left: 28%;
+    }
+ }
+
+ /* Small devices (landscape phones, less than 768px) */
+ @media (max-width: 767px) {
+    .img-fluid {
+        max-width: 80%;
+        height: auto;
+    }
+  }
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 900px) { 
+    .navbar-brand{
+        left: 32%;
+    }
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1020px) { 
+    .navbar-brand{
+        left: 40%;
+    }
+ }
