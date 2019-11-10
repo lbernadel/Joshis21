@@ -46,6 +46,16 @@ ul.nav-tabs {
     display: block;
 }
 
+/* Buttons Styling */
+button.btn {
+    background-color: #18206F;
+    border: #BD1E1E solid 2px;
+    color: #FFF6EA;
+}
+button.btn:hover {
+    color: #5353b2;
+}
+
 /* footer styling */
 footer {
     max-width: 100% !important;
@@ -96,6 +106,6 @@ No media query since this is the default in Bootstrap */
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1020px) { 
     .navbar-brand{
-        left: 40%;
+        left: 43%;
     }
  }

@@ -1,12 +1,12 @@
 /* Landing Page Styling */
 .w-header {
-    width: 3.2rem;
+    width: 60rem;
 }
 
 .timeline {
     position: relative;
     list-style: none;
-    padding: 1rem 0;
+    padding: 0.5rem 0;
     margin: 0;
 }
 
